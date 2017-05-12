@@ -7,9 +7,14 @@ const _ = require('underscore'); // the real one! :)
 
 
 const stringify = function(obj) {
-  // your code goes here
+  const result = ""
+  
 };
 
 module.exports = {
   stringify: stringify
 };
+
+
+console.log(stringify('true'))
+console.log(JSON.stringify('true'))
